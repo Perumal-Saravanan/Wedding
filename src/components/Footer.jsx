@@ -20,18 +20,17 @@ const Footer = () => {
           <img src="/img/floral-divider.svg" alt="" className="w-20 sm:w-24 h-auto opacity-40" />
         </div>
         <p className="font-sans text-base sm:text-lg md:text-xl text-gray-300 leading-relaxed px-4 mb-6">
-          With hearts full of joy, we cordially invite you to grace our wedding celebrations and bless us as we begin our new chapter together.
+          {config.footer.invitationMessage}
         </p>
         <div className="font-display text-burgundy/80">
           <p className="text-2xl sm:text-3xl md:text-4xl mb-2 italic" style={{ color: '#8B4C5C' }}>
             Best wishes from
           </p>
-          <p className="text-lg sm:text-xl md:text-2xl text-gray-200">
-            S. Perumal @ Sakthi
-          </p>
-          <p className="text-lg sm:text-xl md:text-2xl text-gray-200">
-            Mr. Sai Sagar & Mrs. Manjula
-          </p>
+          {config.footer.wishesFrom.map((name, index) => (
+            <p key={index} className="text-lg sm:text-xl md:text-2xl text-gray-200">
+              {name}
+            </p>
+          ))}
         </div>
         <p className="font-sans text-xs text-gray-500 mt-6 sm:mt-8">
           © 2026 | Designed with love

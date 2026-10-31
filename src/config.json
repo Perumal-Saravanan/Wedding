@@ -36,6 +36,13 @@
     "coverDateRange": "19 & 20 November 2026",
     "welcomeMessage": "With immense joy and gratitude, we warmly welcome you to join us in celebrating our wedding and seek your blessings for our new journey together."
   },
+  "footer": {
+    "invitationMessage": "With hearts full of joy, we cordially invite you to grace our wedding celebrations and bless us as we begin our new chapter together.",
+    "wishesFrom": [
+      "S. Perumal @ Sakthi",
+      "Mr. Sai Sagar & Mrs. Manjula"
+    ]
+  },
   "music": {
     "playlist": [
       {
