@@ -146,7 +146,7 @@ function App() {
                 className="mb-8"
               >
                 <h1 className="font-display text-5xl sm:text-7xl md:text-8xl lg:text-9xl mb-6 leading-none">
-                  <span className="gradient-text block mb-2">{config.groom.name}</span>
+                  <span className="gradient-text block mb-2">{config.bride.name}</span>
                   <motion.span 
                     className="text-gold text-6xl sm:text-8xl md:text-9xl block my-4"
                     animate={{ scale: [1, 1.1, 1] }}
@@ -154,7 +154,7 @@ function App() {
                   >
                     &
                   </motion.span>
-                  <span className="gradient-text block">{config.bride.name}</span>
+                  <span className="gradient-text block">{config.groom.name}</span>
                 </h1>
               </motion.div>
 
