@@ -11,7 +11,7 @@ const Footer = () => {
       <div className="container mx-auto text-center max-w-4xl relative z-10">
         <Heart className="w-6 h-6 sm:w-8 sm:h-8 mx-auto mb-3 sm:mb-4 text-gold animate-pulse" />
         <p className="font-display text-xl sm:text-2xl md:text-3xl mb-2 text-white">
-          {config.groom.name} & {config.bride.name}
+          {config.bride.name} & {config.groom.name}
         </p>
         <p className="font-sans text-xs sm:text-sm text-gray-400 mb-3 sm:mb-4">
           {config.metadata.coverDateRange}
@@ -27,10 +27,10 @@ const Footer = () => {
             Best wishes from
           </p>
           <p className="text-lg sm:text-xl md:text-2xl text-gray-200">
-            Mr. Sai Sagar & Mrs. Manjula,
+            S. Perumal @ Sakthi
           </p>
           <p className="text-lg sm:text-xl md:text-2xl text-gray-200">
-            S. Perumal (a) Shakthi
+            Mr. Sai Sagar & Mrs. Manjula
           </p>
         </div>
         <p className="font-sans text-xs text-gray-500 mt-6 sm:mt-8">

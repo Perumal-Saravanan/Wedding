@@ -9,14 +9,14 @@ const Details = () => {
     
     if (eventType === 'reception') {
       event = {
-        text: `${config.groom.name} & ${config.bride.name} - Wedding Reception`,
+        text: `${config.bride.name} & ${config.groom.name} - Wedding Reception`,
         dates: '20261119T183000Z/20261119T203000Z', // UTC time for 6:00 PM IST
         details: 'Join us for the wedding reception celebration',
         location: config.venue.fullAddress,
       };
     } else if (eventType === 'muhurtham') {
       event = {
-        text: `${config.groom.name} & ${config.bride.name} - Muhurtham Ceremony`,
+        text: `${config.bride.name} & ${config.groom.name} - Muhurtham Ceremony`,
         dates: '20261120T020000Z/20261120T033000Z', // UTC time for 7:30 AM - 9:00 AM IST
         details: 'Join us for the auspicious Muhurtham ceremony',
         location: config.venue.fullAddress,
