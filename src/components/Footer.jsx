@@ -4,37 +4,50 @@ import config from '../config.json';
 
 const Footer = () => {
   return (
-    <footer className="py-8 sm:py-10 md:py-12 px-4 sm:px-6 bg-darkBg border-t border-gold/20 relative overflow-hidden">
-      {/* Subtle background glow */}
-      <div className="absolute inset-0 bg-gradient-to-t from-gold/5 via-transparent to-transparent pointer-events-none" />
+    <footer className="py-16 sm:py-20 px-4 sm:px-6 bg-gradient-to-b from-darkBg to-black relative overflow-hidden">
+      {/* Modern gradient background */}
+      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(212,175,55,0.1),transparent_50%)] pointer-events-none" />
       
-      <div className="container mx-auto text-center max-w-4xl relative z-10">
-        <Heart className="w-6 h-6 sm:w-8 sm:h-8 mx-auto mb-3 sm:mb-4 text-gold animate-pulse" />
-        <p className="font-display text-xl sm:text-2xl md:text-3xl mb-2 text-white">
-          {config.bride.name} & {config.groom.name}
-        </p>
-        <p className="font-sans text-xs sm:text-sm text-gray-400 mb-3 sm:mb-4">
-          {config.metadata.coverDateRange}
-        </p>
-        <div className="flex justify-center mb-3 sm:mb-4">
-          <img src="/img/floral-divider.svg" alt="" className="w-20 sm:w-24 h-auto opacity-40" />
+      <div className="container mx-auto text-center max-w-5xl relative z-10">
+        {/* Couple Names - Modern & Bold */}
+        <div className="mb-8">
+          <Heart className="w-10 h-10 mx-auto mb-6 text-gold/80" />
+          <h2 className="font-display text-4xl sm:text-5xl md:text-6xl mb-3 text-white tracking-wide">
+            {config.bride.name} & {config.groom.name}
+          </h2>
+          <p className="font-sans text-sm sm:text-base text-gold/70 tracking-widest uppercase">
+            {config.metadata.coverDateRange}
+          </p>
         </div>
-        <p className="font-sans text-base sm:text-lg md:text-xl text-gray-300 leading-relaxed px-4 mb-6">
+
+        {/* Divider */}
+        <div className="w-24 h-px bg-gradient-to-r from-transparent via-gold/50 to-transparent mx-auto my-10" />
+
+        {/* Invitation Message - Clean & Readable */}
+        <p className="font-sans text-base sm:text-lg text-gray-300 leading-relaxed max-w-3xl mx-auto mb-12">
           {config.footer.invitationMessage}
         </p>
-        <div className="font-display text-burgundy/80">
-          <p className="text-2xl sm:text-3xl md:text-4xl mb-2 italic" style={{ color: '#8B4C5C' }}>
+
+        {/* Best Wishes From - Modern Typography */}
+        <div className="mb-12">
+          <p className="font-display text-xl sm:text-2xl text-gold/60 italic mb-4 tracking-wide">
             Best wishes from
           </p>
-          {config.footer.wishesFrom.map((name, index) => (
-            <p key={index} className="text-lg sm:text-xl md:text-2xl text-gray-200">
-              {name}
-            </p>
-          ))}
+          <div className="space-y-2">
+            {config.footer.wishesFrom.map((name, index) => (
+              <p key={index} className="font-sans text-lg sm:text-xl text-white/90">
+                {name}
+              </p>
+            ))}
+          </div>
         </div>
-        <p className="font-sans text-xs text-gray-500 mt-6 sm:mt-8">
-          © 2026 | Designed with love
-        </p>
+
+        {/* Copyright - Minimal */}
+        <div className="pt-8 border-t border-white/5">
+          <p className="font-sans text-xs text-gray-600">
+            © 2026 · Designed with love
+          </p>
+        </div>
       </div>
     </footer>
   );
