@@ -68,7 +68,7 @@ const Hero = () => {
               animate={{ x: 0, opacity: 1 }}
               transition={{ delay: 0.5, duration: 0.8 }}
             >
-              {config.groom.name}
+              {config.bride.name}
             </motion.span>
             <motion.span 
               className="text-gold text-5xl sm:text-7xl md:text-8xl my-4 block"
@@ -84,7 +84,7 @@ const Hero = () => {
               animate={{ x: 0, opacity: 1 }}
               transition={{ delay: 0.9, duration: 0.8 }}
             >
-              {config.bride.name}
+              {config.groom.name}
             </motion.span>
           </h1>
           

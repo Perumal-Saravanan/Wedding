@@ -74,12 +74,12 @@ const Story = () => {
                 </div>
                 
                 <h3 className="font-sans font-semibold text-xl sm:text-2xl text-gold/90 mb-3">
-                  Groom
+                  Bride
                 </h3>
-                <div className="text-2xl sm:text-3xl md:text-4xl font-display text-white mb-3 sm:mb-4">{config.groom.name}</div>
-                <p className="font-sans text-xs sm:text-sm text-gray-400 mb-2">Son of</p>
+                <div className="text-2xl sm:text-3xl md:text-4xl font-display text-white mb-3 sm:mb-4">{config.bride.name}</div>
+                <p className="font-sans text-xs sm:text-sm text-gray-400 mb-2">Daughter of</p>
                 <p className="font-sans text-sm sm:text-base text-gray-300 leading-relaxed">
-                  {config.groom.father} & {config.groom.mother}
+                  {config.bride.father} & {config.bride.mother}
                 </p>
               </div>
             </motion.div>
@@ -102,12 +102,12 @@ const Story = () => {
                 </div>
                 
                 <h3 className="font-sans font-semibold text-xl sm:text-2xl text-gold/90 mb-3">
-                  Bride
+                  Groom
                 </h3>
-                <div className="text-2xl sm:text-3xl md:text-4xl font-display text-white mb-3 sm:mb-4">{config.bride.name}</div>
-                <p className="font-sans text-xs sm:text-sm text-gray-400 mb-2">Daughter of</p>
+                <div className="text-2xl sm:text-3xl md:text-4xl font-display text-white mb-3 sm:mb-4">{config.groom.name}</div>
+                <p className="font-sans text-xs sm:text-sm text-gray-400 mb-2">Son of</p>
                 <p className="font-sans text-sm sm:text-base text-gray-300 leading-relaxed">
-                  {config.bride.father} & {config.bride.mother}
+                  {config.groom.father} & {config.groom.mother}
                 </p>
               </div>
             </motion.div>
