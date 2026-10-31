@@ -45,7 +45,7 @@ const Footer = () => {
         {/* Copyright - Minimal */}
         <div className="pt-8 border-t border-white/5">
           <p className="font-sans text-xs text-gray-600">
-            © 2026 · Designed with love
+            © 2026 · Made with love and blessings
           </p>
         </div>
       </div>
