@@ -3,7 +3,6 @@ import { motion, AnimatePresence } from 'framer-motion';
 import Hero from './components/Hero';
 import Story from './components/Story';
 import Countdown from './components/Countdown';
-import Timeline from './components/Timeline';
 import Details from './components/Details';
 import Wishes from './components/RSVP';
 import Footer from './components/Footer';
@@ -243,7 +242,6 @@ function App() {
             <Hero />
             <Story />
             <Countdown />
-            <Timeline />
             <Details />
             <Wishes />
             <Footer />
