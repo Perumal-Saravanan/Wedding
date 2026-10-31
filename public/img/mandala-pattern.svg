@@ -1,0 +1,39 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Outer circle -->
+  <circle cx="100" cy="100" r="90" stroke="#D4AF37" stroke-width="1" fill="none" opacity="0.3"/>
+  <circle cx="100" cy="100" r="80" stroke="#D4AF37" stroke-width="0.5" fill="none" opacity="0.2"/>
+  
+  <!-- Petals - 8 directions -->
+  <g opacity="0.6">
+    <!-- Top -->
+    <path d="M100 20 Q90 40, 100 60 Q110 40, 100 20" fill="#D4AF37"/>
+    <!-- Bottom -->
+    <path d="M100 180 Q90 160, 100 140 Q110 160, 100 180" fill="#D4AF37"/>
+    <!-- Left -->
+    <path d="M20 100 Q40 90, 60 100 Q40 110, 20 100" fill="#D4AF37"/>
+    <!-- Right -->
+    <path d="M180 100 Q160 90, 140 100 Q160 110, 180 100" fill="#D4AF37"/>
+    <!-- Top-Right -->
+    <path d="M140 30 Q130 45, 135 60 Q145 50, 140 30" fill="#D4AF37" transform="rotate(45 100 100)"/>
+    <!-- Top-Left -->
+    <path d="M60 30 Q70 45, 65 60 Q55 50, 60 30" fill="#D4AF37" transform="rotate(-45 100 100)"/>
+    <!-- Bottom-Right -->
+    <path d="M140 170 Q130 155, 135 140 Q145 150, 140 170" fill="#D4AF37" transform="rotate(-45 100 100)"/>
+    <!-- Bottom-Left -->
+    <path d="M60 170 Q70 155, 65 140 Q55 150, 60 170" fill="#D4AF37" transform="rotate(45 100 100)"/>
+  </g>
+  
+  <!-- Inner decorative circles -->
+  <circle cx="100" cy="100" r="15" stroke="#D4AF37" stroke-width="1.5" fill="none"/>
+  <circle cx="100" cy="100" r="8" fill="#D4AF37" opacity="0.4"/>
+  
+  <!-- Dots around -->
+  <circle cx="100" cy="30" r="2" fill="#D4AF37"/>
+  <circle cx="100" cy="170" r="2" fill="#D4AF37"/>
+  <circle cx="30" cy="100" r="2" fill="#D4AF37"/>
+  <circle cx="170" cy="100" r="2" fill="#D4AF37"/>
+  <circle cx="145" cy="45" r="1.5" fill="#D4AF37" opacity="0.7"/>
+  <circle cx="55" cy="45" r="1.5" fill="#D4AF37" opacity="0.7"/>
+  <circle cx="145" cy="155" r="1.5" fill="#D4AF37" opacity="0.7"/>
+  <circle cx="55" cy="155" r="1.5" fill="#D4AF37" opacity="0.7"/>
+</svg>

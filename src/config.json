@@ -1,0 +1,63 @@
+{
+  "bride": {
+    "name": "Preetha",
+    "father": "L. Saravanan",
+    "mother": "S. Amul"
+  },
+  "groom": {
+    "name": "Manoj",
+    "father": "M. Vidyasagar",
+    "mother": "M. Maheswari"
+  },
+  "events": {
+    "reception": {
+      "date": "2026-11-19",
+      "displayDate": "Thursday, 19 November 2026",
+      "time": "6:00 PM onwards"
+    },
+    "muhurtham": {
+      "date": "2026-11-20",
+      "displayDate": "Friday, 20 November 2026",
+      "time": "7:30 AM – 9:00 AM"
+    }
+  },
+  "venue": {
+    "name": "VPN Mahal",
+    "address": "Kondapalayam Road",
+    "city": "Sholinghur",
+    "state": "Tamil Nadu",
+    "pincode": "631102",
+    "landmark": "Near Thakangulam Lord Hanuman statue",
+    "fullAddress": "VPN Mahal, Kondapalayam Road, Sholinghur, Tamil Nadu 631102",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=VPN+Mahal+Sholinghur+Tamil+Nadu"
+  },
+  "metadata": {
+    "coupleImage": "/img/couple-cover.jpg",
+    "coverDateRange": "19 & 20 November 2026",
+    "welcomeMessage": "With immense joy and gratitude, we warmly welcome you to join us in celebrating our wedding and seek your blessings for our new journey together."
+  },
+  "music": {
+    "playlist": [
+      {
+        "title": "Anbil Avan",
+        "artist": "Karthik & Devan Ekambaram",
+        "file": "/music/Anbil-Avan.mp3"
+      },
+      {
+        "title": "Vaa Kannama",
+        "artist": "Haricharan & Chinmayi",
+        "file": "/music/Vaa Kannamma_Bgm.mp3"
+      },
+       {
+        "title": "Vaa Kannama",
+        "artist": "Haricharan & Chinmayi",
+        "file": "/music/Vaa Kannamma_song.mp3"
+      },
+      {
+        "title": "Mannipaaya",
+        "artist": "A.R. Rahman & Shreya Ghoshal",
+        "file": "/music/Mannipaaya.mp3"
+      }   
+    ]
+  }
+}

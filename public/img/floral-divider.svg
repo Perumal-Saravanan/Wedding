@@ -1,0 +1,22 @@
+<svg width="400" height="80" viewBox="0 0 400 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Center heart -->
+  <path d="M200 35 C200 35, 195 30, 190 30 C185 30, 182 33, 182 38 C182 43, 185 46, 190 50 L200 58 L210 50 C215 46, 218 43, 218 38 C218 33, 215 30, 210 30 C205 30, 200 35, 200 35 Z" fill="#D4AF37"/>
+  
+  <!-- Left flourish -->
+  <path d="M180 40 Q160 35, 140 38 Q120 40, 100 45" stroke="#D4AF37" stroke-width="1.5" fill="none"/>
+  <path d="M170 42 Q150 40, 130 43 Q110 45, 90 50" stroke="#D4AF37" stroke-width="1" fill="none" opacity="0.6"/>
+  <circle cx="85" cy="52" r="2" fill="#D4AF37" opacity="0.8"/>
+  <circle cx="95" cy="48" r="1.5" fill="#D4AF37" opacity="0.6"/>
+  
+  <!-- Right flourish -->
+  <path d="M220 40 Q240 35, 260 38 Q280 40, 300 45" stroke="#D4AF37" stroke-width="1.5" fill="none"/>
+  <path d="M230 42 Q250 40, 270 43 Q290 45, 310 50" stroke="#D4AF37" stroke-width="1" fill="none" opacity="0.6"/>
+  <circle cx="315" cy="52" r="2" fill="#D4AF37" opacity="0.8"/>
+  <circle cx="305" cy="48" r="1.5" fill="#D4AF37" opacity="0.6"/>
+  
+  <!-- Decorative leaves -->
+  <ellipse cx="150" cy="40" rx="4" ry="8" fill="#D4AF37" opacity="0.4" transform="rotate(-30 150 40)"/>
+  <ellipse cx="250" cy="40" rx="4" ry="8" fill="#D4AF37" opacity="0.4" transform="rotate(30 250 40)"/>
+  <ellipse cx="130" cy="45" rx="3" ry="6" fill="#D4AF37" opacity="0.3" transform="rotate(-45 130 45)"/>
+  <ellipse cx="270" cy="45" rx="3" ry="6" fill="#D4AF37" opacity="0.3" transform="rotate(45 270 45)"/>
+</svg>
